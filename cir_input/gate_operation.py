@@ -1,17 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 28 17:01:47 2020
-
-@author: zxz58
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr  5 18:57:54 2019
-
-@author: Xiangzhen Zhou
-
-"""
 
 from qiskit.circuit import Gate
 # from qiskit.extensions import standard

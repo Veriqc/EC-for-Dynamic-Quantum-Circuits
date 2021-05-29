@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 26 14:42:42 2020
 
-@author: zxz58
-"""
 from qiskit import QuantumCircuit
 
 def CreateCircuitFromQASM(file, path):

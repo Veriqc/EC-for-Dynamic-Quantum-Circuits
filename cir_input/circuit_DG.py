@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 28 12:37:42 2020
 
-@author: zxz58
-"""
 import networkx as nx
 from cir_input.qasm import CreateCircuitFromQASM
 from qiskit.quantum_info.operators import Operator
