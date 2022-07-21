@@ -221,14 +221,15 @@ def cir_2_tn(cir,input_s=[],output_s=[]):
     all_indexs=[]
             
         
-            
+    for k in range(qubits_num):
+        all_indexs.append('x'+str(k))  
+        
     for cr in cir.cregs:
         na=cr.name
         for k in range(cr.size):
             all_indexs.append(na+'_'+str(k))
             
-    for k in range(qubits_num):
-        all_indexs.append('x'+str(k))  
+
         
     for k in range(qubits_num):
 #         all_indexs.append('x'+str(k))
